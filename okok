@@ -1,0 +1,14 @@
+git show 343ff6274fcbdd32a5866d4feda8f73489737298
+$ git show 343ff6274fcbdd32a
+$ git show 343ff6
+git log --abbrev-commit --pretty=oneline
+
+ git show 8bc715e403e6cf59a7e66d390352167c5a3fe56c
+$ git show testing
+
+
+git rev-parse testing
+
+ git reflog
+
+git log --pretty=format:'%h %s' --graph
